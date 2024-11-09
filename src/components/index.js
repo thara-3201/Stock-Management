@@ -12,7 +12,7 @@ const LayoutWrapper = ({ children }) => {
   } = theme.useToken();
 
   return (
-    <Layout>
+    <Layout style={{height: '100%'}}>
       <Header
         style={{
           position: 'sticky',
@@ -60,7 +60,8 @@ const LayoutWrapper = ({ children }) => {
           style={{
             padding: 24,
             minHeight: 380,
-            background: colorBgContainer,
+            height: '100%',
+            background: 'rgb(240, 242, 245)',
             borderRadius: borderRadiusLG,
             position: 'relative',
           }}
