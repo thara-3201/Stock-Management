@@ -62,6 +62,7 @@ const LayoutWrapper = ({ children }) => {
             minHeight: 380,
             background: colorBgContainer,
             borderRadius: borderRadiusLG,
+            position: 'relative',
           }}
         >
           { children }
